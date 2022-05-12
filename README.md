@@ -1,4 +1,4 @@
-# SIREN<sup>+</sup>: A Proactive Attack-agnostic Defense System for Federated Learning
+# SIREN<sup>+</sup>: Robust Federated Learning with Proactive Alarming and Differential Privacy
 
 This code accompanies the paper 'SIREN<sup>+</sup>: Robust Federated Learning with Proactive Alarming and Differential Privacy'. 
 
