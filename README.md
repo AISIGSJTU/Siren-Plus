@@ -64,4 +64,4 @@ To run Siren under label-flipping attack with Fashion-MNIST dataset using LDP, u
 python main.py --dataset=fMNIST --k=10 --C=1.0 --E=5 --T=40 --B=64 --train --model_num=1 --mal --gar=siren --attack_type=label_flipping --dp --dp_mul=1.0
 ```
 
-After running the code, please check ```/output``` directory for the results.
+After running the code, please check ```/output``` directory for the results (please manually create the ```output``` directory before the execution of the codes).
