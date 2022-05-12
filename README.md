@@ -1,6 +1,6 @@
-# Siren: A Proactive Attack-agnostic Defense System for Federated Learning
+# SIREN<sup>+</sup>: A Proactive Attack-agnostic Defense System for Federated Learning
 
-This code accompanies the paper '$SIREN^+$: Robust Federated Learning with Proactive Alarming and Differential Privacy'. 
+This code accompanies the paper 'SIREN<sup>+</sup>: Robust Federated Learning with Proactive Alarming and Differential Privacy'. 
 
 Please download Fashion-MNIST dataset to path like ```/home/data/``` on the user's machine if you want to use it. CIFAR-10 dataset can be downloaded by the program automatically.
 
@@ -36,7 +36,7 @@ While if you want to run the code successfully with your customized parameters, 
 | --non_iidness| the non-iidness of the data distribution on the clients |
 |
 
-and $SIREN^+$ exclusive parameters (if you want to use $SIREN^+$):
+and SIREN<sup>+</sup> exclusive parameters (if you want to use SIREN<sup>+</sup>):
 
 | Parameter         | Function                                               |
 | -----------       | ------------------------------------------------------ |
