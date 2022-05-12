@@ -58,10 +58,10 @@ python main.py --dataset=fMNIST --k=10 --C=1.0 --E=5 --T=40 --B=64 --train --mod
 ```
 While if you want to use CIFAR-10 dataset and ResNet-18, please set --dataset=CIFAR-10 and --model_num=9.
 
-To run Siren under single-target targeted model poisoning attack with Fashion-MNIST dataset with LDP, use
+To run Siren under label-flipping attack with Fashion-MNIST dataset using LDP, use
 
 ```
-python main.py --dataset=fMNIST --k=10 --C=1.0 --E=5 --T=40 --B=64 --train --model_num=1 --mal --mal_obj=single --gar=siren --attack_type=targeted_model_poisoning --dp --dp_mul=1.0
+python main.py --dataset=fMNIST --k=10 --C=1.0 --E=5 --T=40 --B=64 --train --model_num=1 --mal --gar=siren --attack_type=label_flipping --dp --dp_mul=1.0
 ```
 
 After running the code, please check 'output' directory for the results.
