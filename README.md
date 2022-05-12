@@ -58,7 +58,7 @@ python main.py --dataset=fMNIST --k=10 --C=1.0 --E=5 --T=40 --B=64 --train --mod
 ```
 While if you want to use CIFAR-10 dataset and ResNet-18, please set --dataset=CIFAR-10 and --model_num=9.
 
-To run Siren under label-flipping attack with Fashion-MNIST dataset using LDP, use
+To run SIREN<sup>+</sup> under label-flipping attack with Fashion-MNIST dataset using LDP, use
 
 ```
 python main.py --dataset=fMNIST --k=10 --C=1.0 --E=5 --T=40 --B=64 --train --model_num=1 --mal --gar=siren --attack_type=label_flipping --dp --dp_mul=1.0
