@@ -34,7 +34,6 @@ While if you want to run the code successfully with your customized parameters, 
 | --mia       | use membership inference attack                        |
 | --malicious_proportion| the proportion of malicious clients in the system|
 | --non_iidness| the non-iidness of the data distribution on the clients |
-|
 
 and SIREN<sup>+</sup> exclusive parameters (if you want to use SIREN<sup>+</sup>):
 
@@ -47,7 +46,6 @@ and SIREN<sup>+</sup> exclusive parameters (if you want to use SIREN<sup>+</sup>
 | --root_size       | the size of the root test dataset                      |
 | --dp              | train local models with LDP on all the benign clients  |
 | --dp_mul          | noise multiplier for LDP                               |
-|
 
 For more parameters and details of the above parameters, please refer to ```\global_vars.py```
 
