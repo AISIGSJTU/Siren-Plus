@@ -1,6 +1,6 @@
 # SIREN<sup>+</sup>: Robust Federated Learning with Proactive Alarming and Differential Privacy
 
-This code accompanies the paper 'SIREN<sup>+</sup>: Robust Federated Learning with Proactive Alarming and Differential Privacy'. 
+This code accompanies the paper 'SIREN<sup>+</sup>: Robust Federated Learning with Proactive Alarming and Differential Privacy', which is accepted by *IEEE Transactions on Dependable and Secure Computing (2024)*.
 
 Please download Fashion-MNIST dataset to path like ```/home/data/``` on the user's machine if you want to use it. CIFAR-10 dataset can be downloaded by the program automatically.
 
