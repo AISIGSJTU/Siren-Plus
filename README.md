@@ -65,3 +65,14 @@ python main.py --dataset=fMNIST --k=10 --C=1.0 --E=5 --T=40 --B=64 --train --mod
 ```
 
 After running the code, please check ```/output``` directory for the results (please manually create the ```output``` directory before the execution of the codes).
+
+To cite our paper, please use the following BibTex:
+```
+@article{guo2024siren+,
+  title={SIREN+: Robust Federated Learning with Proactive Alarming and Differential Privacy},
+  author={Guo, Hanxi and Wang, Hao and Song, Tao and Hua, Yang and Ma, Ruhui and Jin, Xiulang and Xue, Zhengui and Guan, Haibing},
+  journal={IEEE Transactions on Dependable and Secure Computing (TDSC)},
+  year={2024},
+  publisher={IEEE}
+}
+```
