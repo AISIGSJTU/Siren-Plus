@@ -48,7 +48,7 @@ and SIREN<sup>+</sup> exclusive parameters (if you want to use SIREN<sup>+</sup>
 | Parameter         | Function                                               |
 | -----------       | ------------------------------------------------------ |
 | --server_c        | threshold $C_s$ used by the server                     |
-| --client_c        | threshold $C_s$ used by the client                     |
+| --client_c        | threshold $C_c$ used by the client                     |
 | --server_prohibit | threshold to trigger the penalty mechanism.            |
 | --forgive         | the award value used by the award mechanism            |
 | --root_size       | the size of the root test dataset                      |
