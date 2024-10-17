@@ -4,7 +4,15 @@ This code accompanies the paper 'SIREN<sup>+</sup>: Robust Federated Learning wi
 
 Please download Fashion-MNIST dataset to path like ```/home/data/``` on the user's machine if you want to use it. CIFAR-10 dataset can be downloaded by the program automatically.
 
-Recommended Dependencies: Please check the ```requirements.txt``` file in ```/requirement```. We have tested our system using such setting.
+Recommended Dependencies: We have tested our system using the following environment configuration.
+
+```
+conda create -n siren-plus python=3.8.12
+conda activate siren-plus
+conda install tensorflow-gpu==2.4.1
+pip install tensorflow-privacy==0.5.1
+conda install keras==2.3.1 scikit-learn pandas
+```
 
 To run the code without any customized settings, please use:
 
